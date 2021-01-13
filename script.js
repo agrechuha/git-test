@@ -1,3 +1,9 @@
+let div = document.querySelector('div')
+
 document.getElementById('first-button').addEventListener('click', () => {
-    document.querySelector('div').style.color = 'green';
+    div.style.color = 'green';
+})
+
+document.getElementById('second-button').addEventListener('click', () => {
+    div.style.color = 'red';
 })
